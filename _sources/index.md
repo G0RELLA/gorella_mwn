@@ -7,7 +7,7 @@ titlesonly: true
 ---
 ```
 
-![gorella logo](static/gorella_logo.png)
+![gorella logo](static/gorella_logo_mwn.png)
 
 ```{admonition} About the content of this Jupyter Book
 :class: warning
@@ -18,78 +18,77 @@ Pleae visit this page again in the next feew weeks for further information.
 
 # Welcome!
 
-Hello everyone and welcome to the documentation page for the GORELLA base
-skeleton, we're glad to see you here!
+Hello everyone and welcome to the GORELLA module "Methodological work in the neurosciences", we're glad to see you here!
 For more information on the GORELLA project see
 [here](https://g0rella.github.io/gorella_overview/).
 
-Within these pages, we provide the basic elements needed to implement the
-GORELLA framework on your lecture.
+Within these pages, we provide the entire materials and content of the module as it was taught at the [Philipps-University Marburg]()
+during the summer term 2021.
 
 ## What's all this now?
 
 GORELLA stands for "Generalizable Outline for Realistic Empirical Life
 Science Lectures and their Applications". It is a framework aimed to
 improve openness and sustainability in scientific teaching and training.
-GORELLA is designed to help you prepare and supply lecture content
+GORELLA is designed to help prepare and supply lecture content
 in a way that it is [FAIR](https://en.wikipedia.org/wiki/FAIR_data) for as
 many people as possible.
 
-You can use the following sections to organize the content of your lecture:
+Applied to the module at hand, this includes the following sections:
 
-* [GORELLA - an overview](https://g0rella.github.io/gorella_base/overview.html)
+* [Overview & Setup](https://g0rella.github.io/gorella_mwn/overview.html)
 
-   What's the problem and how are we propose to solve it?
+   What's the problem, how do we propose to solve it and what do we need for this?
 
-* [General procedure](https://g0rella.github.io/gorella_base/procedure.html)
+* [General procedure](https://g0rella.github.io/gorella_mwn/procedure.html)
 
    How are things implemented and supposed to work?
 
-* [General outline](https://g0rella.github.io/gorella_base/outline.html)
+* [General outline](https://g0rella.github.io/gorella_mwn/outline.html)
 
    What are the specific topics and aspects taught?
 
-* [Introduction & theory building](https://g0rella.github.io/gorella_base/introduction_theory_building.html)
+* [Project & data management](https://g0rella.github.io/gorella_mwn/project_management.html)
 
    All things gotta start somewhere and scientific projects are no exception to
-   that, but how?
+   that, but how? Additionally, how should projects and data be managed throughout its life cycle?
 
-* [Data analyses](https://g0rella.github.io/gorella_basedata_analyses.html)
+* [Data analyses](https://g0rella.github.io/gorella_mwn/data_analyses.html)
 
    How to obtain insights from data?
 
-* [Results communication](https://g0rella.github.io/gorella_base/results_communication.html)
+* [Results communication](https://g0rella.github.io/gorella_mwn/results_communication.html)
 
    Where should the acquired knowledge to be disseminated?
 
-* [Symposium](https://g0rella.github.io/gorella_base/symposium.html)
+* [Symposium](https://g0rella.github.io/gorella_mwn/symposium.html)
 
    What to do about outreach and discourse creation?
 
-* [Student projects](https://g0rella.github.io/gorella_base/projects.html)
+* [Student projects](https://g0rella.github.io/gorella_mwn/projects.html)
 
    Making sure the work and progress of the participants is transparent and
    documented.
 
-* [Questionnaires](https://g0rella.github.io/gorella_base/questionnaires.html)
+* [Questionnaires](https://g0rella.github.io/gorella_mwn/questionnaires.html)
 
    Was it worth it and how can this be evaluated?
 
-* [GORELLA tutorial](https://g0rella.github.io/gorella_overview/tutorial.html)
+* [GORELLA tutorial](https://g0rella.github.io/gorella_mwn/tutorial.html)
 
    Are there guidelines on how to start?
 
-* [Code of Conduct](https://g0rella.github.io/gorella_overview/CoC.html)
+* [Code of Conduct](https://g0rella.github.io/gorella_mwn/CoC.html)
 
    Necessities for creating an open, fair, safe and inclusive learning
    experience.
 
 ## I've got a question!
 
-In case you have any questions or difficulties applying the GORELLA framework
-to your lecture, please don’t hesitate a single second to get in touch with
+In case you have any questions or difficulties following the content of this
+your lecture, please don’t hesitate a single second to get in touch with
 us. A great way to do this is to
-[open an issue](https://github.com/G0RELLA/gorella_base/issues) on the
-GitHub site of the GORELLA base skeleton.
+[open an issue](https://g0rella.github.io/gorella_mwn/issues) on the
+GitHub site of this lecture.
 We would also highly appreciate and value every feedback or idea or you
 might have.

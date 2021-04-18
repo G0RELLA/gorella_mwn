@@ -1,4 +1,4 @@
-# Introduction and theory building
+# Project and data management
 
 ## Lecture/Practice 1 - General Introduction
 
