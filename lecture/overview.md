@@ -420,7 +420,7 @@ Now that you've installed everything it's time to check that everything works as
 Type the following into your terminal:
 
 ``` bash
-bash <( curl -s https://neurodatasci-course-2020.netlify.app/resources/nds_check_install.sh )
+bash <( curl -s https://raw.githubusercontent.com/G0RELLA/gorella_mwn/master/check_install.sh?token=AEZSN5GTQLCWJXLTJSZBHGDAPR4R4 )
 ```
 
 If you installed everything correctly you should see a message informing you as such.
