@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Results communication</title>
+    <title>Bash shell</title>
     
   <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -55,8 +55,6 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Symposium" href="symposium.html" />
-    <link rel="prev" title="Data analyses" href="data_analyses.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -91,7 +89,7 @@
   </a>
  </li>
 </ul>
-<ul class="current nav sidenav_l1">
+<ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="overview.html">
    Overview &amp; Setup
@@ -117,8 +115,8 @@
    Data analyses
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="results_communication.html">
    Results communication
   </a>
  </li>
@@ -182,7 +180,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/results_communication.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/setup_linux.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -202,10 +200,10 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/G0RELLA/gorella_base/issues/new?title=Issue%20on%20page%20%2Fresults_communication.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/G0RELLA/gorella_base/issues/new?title=Issue%20on%20page%20%2Fsetup_linux.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/G0RELLA/gorella_base/edit/master/lecture/results_communication.md"><button
+        <a class="edit-button" href="https://github.com/G0RELLA/gorella_base/edit/master/lecture/setup_linux.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -231,88 +229,44 @@
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#lecture-practice-9-visualization-of-results">
-   Lecture/Practice 9 - Visualization of results
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Bash shell
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#git">
+   Git
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#vscode">
+   VSCode
   </a>
   <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#lecture-slides-and-feedback">
-     Lecture slides and feedback
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#practice-materials-and-feedback">
-     Practice materials and feedback
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#vscode-extensions">
+     VSCode extensions
     </a>
    </li>
   </ul>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#lecture-practice-10-poster-and-talk-design">
-   Lecture/Practice 10 - Poster and talk design
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#python">
+   Python
   </a>
   <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id1">
-     Lecture slides and feedback
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id2">
-     Practice materials and feedback
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#python-packages">
+     Python packages
     </a>
    </li>
   </ul>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#lecture-practice-11-writing-a-scientific-paper">
-   Lecture/Practice 11 - Writing a scientific paper
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#docker">
+   Docker
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id3">
-     Lecture slides and feedback
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id4">
-     Practice materials and feedback
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#lecture-practice-12-preprint-publication-models-open-constructive-review">
-   Lecture/Practice 12 - Preprint, publication models &amp; open constructive review
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#outcomes">
-   Outcomes
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#scientific-poster">
-     Scientific poster
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#scientific-talk">
-     Scientific talk
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#scientific-preprint">
-     Scientific preprint
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#open-review">
-     Open review
-    </a>
-   </li>
-  </ul>
  </li>
 </ul>
 
@@ -326,53 +280,96 @@
         
               <div>
                 
-  <div class="section" id="results-communication">
-<h1>Results communication<a class="headerlink" href="#results-communication" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="lecture-practice-9-visualization-of-results">
-<h2>Lecture/Practice 9 - Visualization of results<a class="headerlink" href="#lecture-practice-9-visualization-of-results" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="lecture-slides-and-feedback">
-<h3>Lecture slides and feedback<a class="headerlink" href="#lecture-slides-and-feedback" title="Permalink to this headline">¶</a></h3>
+  <div class="section" id="bash-shell">
+<h1>Bash shell<a class="headerlink" href="#bash-shell" title="Permalink to this headline">¶</a></h1>
+<p>You already have it!
+Depending on which version of Linux you’re running you may need to type <code class="docutils literal notranslate"><span class="pre">bash</span></code> inside the terminal to access it.
+To check whether this is necessary, follow these steps:</p>
+<ol class="simple">
+<li><p>Open a terminal and type <code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">$SHELL</span></code>.
+If it reads <code class="docutils literal notranslate"><span class="pre">/bin/bash</span></code> then you are all set!
+If not, whenever the instructions read “open a terminal,” please assume you are to open a terminal, type <code class="docutils literal notranslate"><span class="pre">bash</span></code>, and the proceed with the instructions as specified.</p></li>
+</ol>
 </div>
-<div class="section" id="practice-materials-and-feedback">
-<h3>Practice materials and feedback<a class="headerlink" href="#practice-materials-and-feedback" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="git">
+<h1>Git<a class="headerlink" href="#git" title="Permalink to this headline">¶</a></h1>
+<p>You may already have it; try typing <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">git</span></code> (Ubuntu, Debian) or <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">yum</span> <span class="pre">install</span> <span class="pre">git</span></code> (Fedora) inside the terminal.
+If you are prompted to install it follow the instructions on-screen to do so.</p>
 </div>
-</div>
-<div class="section" id="lecture-practice-10-poster-and-talk-design">
-<h2>Lecture/Practice 10 - Poster and talk design<a class="headerlink" href="#lecture-practice-10-poster-and-talk-design" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id1">
-<h3>Lecture slides and feedback<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="id2">
-<h3>Practice materials and feedback<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="lecture-practice-11-writing-a-scientific-paper">
-<h2>Lecture/Practice 11 - Writing a scientific paper<a class="headerlink" href="#lecture-practice-11-writing-a-scientific-paper" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id3">
-<h3>Lecture slides and feedback<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="id4">
-<h3>Practice materials and feedback<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="lecture-practice-12-preprint-publication-models-open-constructive-review">
-<h2>Lecture/Practice 12 - Preprint, publication models &amp; open constructive review<a class="headerlink" href="#lecture-practice-12-preprint-publication-models-open-constructive-review" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="outcomes">
-<h2>Outcomes<a class="headerlink" href="#outcomes" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="scientific-poster">
-<h3>Scientific poster<a class="headerlink" href="#scientific-poster" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="scientific-talk">
-<h3>Scientific talk<a class="headerlink" href="#scientific-talk" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="scientific-preprint">
-<h3>Scientific preprint<a class="headerlink" href="#scientific-preprint" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="open-review">
-<h3>Open review<a class="headerlink" href="#open-review" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="vscode">
+<h1>VSCode<a class="headerlink" href="#vscode" title="Permalink to this headline">¶</a></h1>
+<ol class="simple">
+<li><p>Go to <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and click the download button for either the .deb (Ubuntu, Debian) or the .rpm (Fedora, CentOS) file.</p></li>
+<li><p>Double-click the downloaded file to install VSCode.
+(You may be prompted to type your administrator password during the install).</p></li>
+</ol>
+<div class="section" id="vscode-extensions">
+<h2>VSCode extensions<a class="headerlink" href="#vscode-extensions" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>Open the Visual Studio Code application.</p></li>
+<li><p>Press <code class="docutils literal notranslate"><span class="pre">Ctrl+Shift+P</span></code> in the new window that opens and type “Extensions: Install extensions” into the search bar that appears at the top of the screen.
+Select the appropriate entry from the dropdown menu that appears (there should be four entries; simply select the one that reads “Extensions: Install extensions”).</p></li>
+<li><p>A new panel should appear on the left-hand side of the screen with a search bar.
+Search for each of the following extensions and press <code class="docutils literal notranslate"><span class="pre">Install</span></code> for the first entry that appears. (The author listed for all of these extensions should be “Microsoft”.)</p>
+<ul class="simple">
+<li><p>Python (n.b., you will need to reload VSCode after installing this)</p></li>
+<li><p>Live Share (n.b., you may need to press “Ctrl/Cmd+Shift+P” and type “install extensions” again after installing this)</p></li>
+<li><p>Live Share Extension Pack</p></li>
+<li><p>Docker</p></li>
+</ul>
+</li>
+</ol>
 </div>
 </div>
+<div class="section" id="python">
+<h1>Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h1>
+<ol>
+<li><p>Open a new terminal and type the following lines (separately) into the terminal, pressing <code class="docutils literal notranslate"><span class="pre">Enter</span></code> after each one:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+</pre></div>
+</div>
+</li>
+<li><p>A license agreement will be displayed and the bottom of the terminal will read <code class="docutils literal notranslate"><span class="pre">--More--</span></code>.
+Press <code class="docutils literal notranslate"><span class="pre">Enter</span></code> or the space bar until you are prompted with “Do you accept the license terms? [yes|no].”
+Type <code class="docutils literal notranslate"><span class="pre">yes</span></code> and then press <code class="docutils literal notranslate"><span class="pre">Enter</span></code></p></li>
+<li><p>The installation script will inform you that it is going to install into a default directory (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3</span></code>).
+Leave this default and press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>.</p></li>
+<li><p>When you are asked “Do you wish the installer to initialize Miniconda3 by running conda init? [yes|no],” type <code class="docutils literal notranslate"><span class="pre">yes</span></code> and press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>.
+Exit the terminal once the installation has finished.</p></li>
+<li><p>Re-open a new terminal.
+Type <code class="docutils literal notranslate"><span class="pre">which</span> <span class="pre">python</span></code> into the terminal and it should return a path (e.g., <code class="docutils literal notranslate"><span class="pre">/home/$USER/miniconda3/bin/python</span></code>).</p>
+<ul class="simple">
+<li><p>If you do not see a path like this then please try typing <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">init</span></code>, closing your terminal, and repeating this step.
+If your issue is still not resolved skip the following step and contact an instructor on the #help-installation channel of the BHS Slack.</p></li>
+</ul>
+</li>
+<li><p>Type the following to remove the installation script that was downloaded:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rm ./Miniconda3-latest-Linux-x86_64.sh
+</pre></div>
+</div>
+</li>
+</ol>
+<div class="section" id="python-packages">
+<h2>Python packages<a class="headerlink" href="#python-packages" title="Permalink to this headline">¶</a></h2>
+<p>Open a terminal and type the following commands:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda config --append channels conda-forge
+conda config --set channel_priority strict
+conda install -y flake8 ipython jupyter jupyterlab matplotlib nibabel nilearn numpy pandas scipy seaborn
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="docker">
+<h1>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h1>
+<ol class="simple">
+<li><p>You will be following different instructions depending on your distro (<a class="reference external" href="https://docs.docker.com/engine/install/ubuntu/">Ubuntu</a>, <a class="reference external" href="https://docs.docker.com/engine/install/debian/">Debian</a>, <a class="reference external" href="https://docs.docker.com/engine/install/fedora/">Fedora</a>, <a class="reference external" href="https://docs.docker.com/engine/install/centos/">CentOS</a>).
+Make sure to follow the “Install using the repository” method!</p></li>
+<li><p>Once you’ve installed Docker make sure to follow the <a class="reference external" href="https://docs.docker.com/engine/install/linux-postinstall/">post-install instructions</a> as well.
+You only need to do the “Manage Docker as a non-root user” and “Configure Docker to start on boot” steps.</p></li>
+<li><p>Open a new terminal and type <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">run</span> <span class="pre">hello-world</span></code>.
+A brief introductory message should be printed to the screen.</p></li>
+</ol>
 </div>
 
     <script type="text/x-thebe-config">
@@ -400,8 +397,6 @@
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="data_analyses.html" title="previous page">Data analyses</a>
-    <a class='right-next' id="next-link" href="symposium.html" title="next page">Symposium</a>
 
         </div>
         
