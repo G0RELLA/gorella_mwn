@@ -34,6 +34,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.autodoc",
     "sphinx.ext.viewcode",
+    'sphinx_panels',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -100,4 +101,15 @@ myst_amsmath_enable = True
 myst_html_img_enable = True
 myst_deflist_enable = True
 myst_url_schemes = ("http", "https", "mailto")
-panels_add_boostrap_css = False
+panels_add_boostrap_css = True
+panels_delimiters = (r"^\-{3,}$", r"^\^{3,}$", r"^\+{3,}$")
+
+sphinx:
+  extra_extensions:
+  - sphinx_inline_tabs
+  - sphinx_tabs.tabs
+    
+extra_extensions:
+    - sphinx_click.ext
+    - sphinx_inline_tabs
+    - sphinxext.rediraffe
