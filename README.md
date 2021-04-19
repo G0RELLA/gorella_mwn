@@ -4,7 +4,7 @@
 
 ## "What's in this repository?"
 
-This repository contains the G0RELLA module "Methodological work in imaging neuroscience" which was conducted at UMR during the summer term 2021.
+This repository contains the G0RELLA module "Methodological working in imaging neuroscience" which was conducted at UMR during the summer term 2021.
 
 We've tried to document the various aspects of this G0RELLA module with a whole bunch of README files, so feel free to jump around and check things out.
 
