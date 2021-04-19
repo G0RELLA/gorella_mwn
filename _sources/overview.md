@@ -31,8 +31,7 @@ To get the most out of our course, we ask that you arrive with the following sof
 - Python 3 via Miniconda
 - A virtualization system: Docker
 - A GitHub account
-- Slack
-- Zoom
+- Discord
 - A modern browser
 
 If you already have all of the above software tools/packages installed, or are confident you’ll be able to install them by the time the course starts, you can jump straight to [checking your install](#checking-your-install).
