@@ -6,13 +6,13 @@
 
 ### Practice materials and feedback
 
-## Lecture/Practice 2 - The scientific methods
+## Lecture/Practice 2 - Basics
 
 ### Lecture slides and feedback
 
 ### Practice materials and feedback
 
-## Lecture/Practice 3 - Theory building
+## Lecture/Practice 3 - Project work
 
 ### Lecture slides and feedback
 
