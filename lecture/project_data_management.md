@@ -6,7 +6,7 @@
 
 You can find the lecture slides here:
 
-<iframe src="Introduction.pdf" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
+<iframe src="https://github.com/G0RELLA/gorella_mwn/blob/master/lecture/Introduction.pdf" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
 
 
 ### Practice materials and feedback
