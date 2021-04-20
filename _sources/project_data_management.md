@@ -4,6 +4,11 @@
 
 ### Lecture slides and feedback
 
+You can find the lecture slides here:
+
+<iframe src="" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
+
+
 ### Practice materials and feedback
 
 ## Lecture/Practice 2 - Basics
