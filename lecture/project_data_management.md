@@ -6,7 +6,7 @@
 
 You can find the lecture slides here:
 
-<iframe src="" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
+<iframe src="https://mfr.de-1.osf.io/render?url=https://osf.io/fe627/?direct%26mode=render%26action=download%26mode=render" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
 
 
 ### Practice materials and feedback
