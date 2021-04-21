@@ -13,9 +13,19 @@ You can find the lecture slides here:
 
 ## Lecture/Practice 2 - Basics
 
-### Lecture slides and feedback
+### [Introduction to the shell]()
 
-### Practice materials and feedback
+Within this lecture/practice mix the [shell](https://en.wikipedia.org/wiki/Shell_%28computing%29), specifically [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)),
+as one of the central tools, we will be introduced and general concepts,
+as well as functions be explored.
+
+### [Introduction to version control using git]()
+
+How to keep track of all the things that happen to projects, including
+code and data? Spoiler: the classic `_version1`, `_version2`, etc. approach
+is not the best option. Thus, within this lecture/practice mix [version control](https://en.wikipedia.org/wiki/Version_control)
+via [git](https://en.wikipedia.org/wiki/Git) will be introduced and explored. This will also include aspects of
+simultaneous collaborative working.
 
 ## Lecture/Practice 3 - Project work
 
