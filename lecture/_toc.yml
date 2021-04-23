@@ -5,6 +5,7 @@
 - file: project_data_management
   sections:
     - file: intro_to_shell
+    - file: intro_to_git_and_github
 - file: data_analyses
 - file: results_communication
 - file: symposium
