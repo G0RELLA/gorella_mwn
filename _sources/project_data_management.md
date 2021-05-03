@@ -30,6 +30,7 @@ simultaneous collaborative working.
 ## Lecture/Practice 3 - Project work
 
 ### Lecture slides and feedback
+<iframe src="https://mfr.de-1.osf.io/render?url=https://osf.io/86p9m/?direct%26mode=render%26action=download%26mode=render" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
 
 ### Practice materials and feedback
 
