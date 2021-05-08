@@ -2,12 +2,11 @@
 
 ## Course overview
 
-Please provide a short description of your project.
+The underlying problem is that in the training of the students there is no preparation for the tasks after graduation. Students often lack an understanding of how to carry out projects.
 
-* What is the current situation/problem, what are the aims of the project?
+This course explains the steps involved in successfully conducting a neuroscience study. In a combination of lecture and training, general topics such as project planning, project implementation and presentation of the results are presented. For each of these topic blocks, the underlying topics are examined in detail.
 
-* What is the proposed solution?
-
+The aim of the course is to plan and implement your own project based on the content and to present the results. Open science methods are used for the implementation.
 
 ## Course setup
 
