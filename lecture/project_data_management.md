@@ -40,6 +40,9 @@ simultaneous collaborative working.
 ## Lecture/Practice 4 - Preregistration
 
 ### Lecture slides and feedback
+<iframe src="https://mfr.de-1.osf.io/render?url=https://osf.io/qf5zk/?direct%26mode=render%26action=download%26mode=render" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
+
+<iframe src="https://mfr.de-1.osf.io/render?url=https://osf.io/z7gf3/?direct%26mode=render%26action=download%26mode=render" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
 
 ### Practice materials and feedback
 
