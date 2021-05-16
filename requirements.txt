@@ -4,3 +4,6 @@ ghp-import
 jupyter-book
 jupytext
 RISE
+plotly
+seaborn
+pandas
