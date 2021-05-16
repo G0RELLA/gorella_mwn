@@ -7,6 +7,9 @@
     - file: intro_to_shell
     - file: intro_to_git_and_github
 - file: data_analyses
+  sections:
+    - file: intro_jupyter
+    - file: intro_python
 - file: results_communication
 - file: symposium
 - file: projects

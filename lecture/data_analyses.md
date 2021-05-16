@@ -1,8 +1,12 @@
 # Data analyses
 
-## Lecture/Practice 5 - Writing code
+## Lecture/Practice 5 - Jupyter & Python
 
-### Lecture slides and feedback
+_Please find the materials in the ToC on the left._
+
+### Introduction to the Jupyter ecosystem & notebooks
+
+### Introduction to the Python programming language
 
 ### Practice materials and feedback
 
