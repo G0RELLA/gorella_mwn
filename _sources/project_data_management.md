@@ -14,6 +14,8 @@ You can find the lecture slides here:
 
 ## Lecture/Practice 2 - Basics
 
+_Please find the materials in the ToC on the left._ 
+
 ### [Introduction to the shell]()
 
 Within this lecture/practice mix the [shell](https://en.wikipedia.org/wiki/Shell_%28computing%29), specifically [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)),
