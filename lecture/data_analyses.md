@@ -20,19 +20,25 @@ _Please find the materials in the ToC on the left._
 
 ### Practice materials and feedback
 
-## Lecture/Practice 6 - Jupyter & Python, Workflows & Preprocessing
+## Lecture/Practice 6 - Jupyter 
+link to jupyter notebook
 
 ### Lecture slides and feedback
 
 ### Practice materials and feedback
 
-## Lecture/Practice 7 - Analysis
+## Lecture/Practice 7 - Python
+
+link to jupyter notebook
 
 ### Lecture slides and feedback
 
 ### Practice materials and feedback
 
 ## Lecture/Practice 8 - Statistics
+iframe src="https://mfr.de-1.osf.io/render?url=https://osf.io/58b6h/?direct%26mode=render%26action=download%26mode=render" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
+
+TODO: put jupyter notebook for statistics
 
 ### Lecture slides and feedback
 
