@@ -10,6 +10,7 @@
   sections:
     - file: intro_jupyter
     - file: intro_python
+    - file: intro_statistics
 - file: results_communication
 - file: symposium
 - file: projects
