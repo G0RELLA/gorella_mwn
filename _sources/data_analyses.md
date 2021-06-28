@@ -12,37 +12,35 @@ You can find the lecture slides here:
 
 ### Feedback
 
+
+## Lecture/Practice 6 - Jupyter 
+
 _Please find the materials in the ToC on the left._
 
 ### Introduction to the Jupyter ecosystem & notebooks
 
-### Introduction to the Python programming language
 
-### Practice materials and feedback
+### Feedback
 
-## Lecture/Practice 6 - Jupyter 
-link to jupyter notebook
 
-### Lecture slides and feedback
-
-### Practice materials and feedback
 
 ## Lecture/Practice 7 - Python
 
-link to jupyter notebook
+_Please find the materials in the ToC on the left._
 
-### Lecture slides and feedback
+### Introduction to the Python programming language
 
-### Practice materials and feedback
+### Feedback
+
+### Calculator
+
 
 ## Lecture/Practice 8 - Statistics
-iframe src="https://mfr.de-1.osf.io/render?url=https://osf.io/58b6h/?direct%26mode=render%26action=download%26mode=render" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
+<iframe src="https://mfr.de-1.osf.io/render?url=https://osf.io/58b6h/?direct%26mode=render%26action=download%26mode=render" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
 
-TODO: put jupyter notebook for statistics
+_Please find the materials in the ToC on the left._
 
-### Lecture slides and feedback
-
-### Practice materials and feedback
+### Feedback
 
 ## Outcomes
 
