@@ -14,7 +14,11 @@ chapters:
     - file: intro_python
     - file: calculator
     - file: intro_statistics
+    - file: data_processing_readin_csv
+    - file: preprocessing_eeg
 - file: results_communication
+    - file: python_visualization
+    - file: python_visualization_for_data
 - file: symposium
 - file: projects
 - file: questionnaires
