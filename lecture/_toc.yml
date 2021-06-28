@@ -1,3 +1,6 @@
+root: index
+format: jb-book
+chapters:
 - file: index
 - file: overview
 - file: procedure
