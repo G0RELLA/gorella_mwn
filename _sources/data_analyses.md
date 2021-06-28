@@ -33,6 +33,8 @@ _Please find the materials in the ToC on the left._
 ### Feedback
 
 ### Calculator
+As a coding example see have a look at the calculator notebook.
+_Please find the materials in the ToC on the left._
 
 
 ## Lecture/Practice 8 - Statistics
