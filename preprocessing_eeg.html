@@ -1,0 +1,744 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Methodological working in imaging neuroscience</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"Macros": {"N": "\\mathbb{N}", "floor": ["\\lfloor#1\\rfloor", 1], "bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}}, "tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      <img src="_static/gorella_logo_mwn.png" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   About the content of this Jupyter Book
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="overview.html">
+   Overview &amp; Setup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="procedure.html">
+   General procedure
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="outline.html">
+   General outline
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="project_data_management.html">
+   Project and data management
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="intro_to_shell.html">
+     Lecture/Practice 2 - Bash
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="intro_to_git_and_github.html">
+     Lecture/Practice 2 - Git &amp; GitHub
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="data_analyses.html">
+   Data analyses
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="intro_jupyter.html">
+     Lecture/Practice 5 - Jupyter
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="intro_python.html">
+     Lecture/Practice 5 - Python
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="intro_statistics.html">
+     Statistics in Python
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="results_communication.html">
+   Results communication
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="symposium.html">
+   Symposium
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="projects.html">
+   Student projects
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="questionnaires.html">
+   Questionnaire templates
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="CoC.html">
+   GORELLA Code of Conduct
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/preprocessing_eeg.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/G0RELLA/gorella_mwn"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/G0RELLA/gorella_mwn/issues/new?title=Issue%20on%20page%20%2Fpreprocessing_eeg.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/G0RELLA/gorella_mwn/edit/master/lecture/preprocessing_eeg.ipynb"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/G0RELLA/gorella_mwn/master?urlpath=tree/lecture/preprocessing_eeg.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#summer-term-2021">
+   Summer Term 2021
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-eeg-preprocessing">
+   Introduction to EEG-preprocessing
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#before-we-get-started">
+   Before we get started
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-is-preprocessing">
+   What Is Preprocessing?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#why-do-we-need-preprocessing">
+   Why do we need preprocessing?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#typical-steps-in-eeg-preprocessing">
+   Typical steps in EEG preprocessing
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hands-on">
+   Hands-on
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#first-load-one-of-the-mne-example-datasets">
+   First, load one of the MNE example datasets:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#now-lets-read-i-e-import-the-edf-file">
+   Now lets read (i.e., import) the EDF file:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#now-that-the-raw-file-has-been-created-we-can-plot-the-data">
+   Now that the
+   <em>
+    Raw file
+   </em>
+   has been created, we can plot the data:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#note">
+   Note:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#look-at-characteristics-of-the-raw-file">
+   Look at characteristics of the
+   <em>
+    Raw file
+   </em>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#filtering">
+   Filtering
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="methodological-working-in-imaging-neuroscience">
+<h1>Methodological working in imaging neuroscience<a class="headerlink" href="#methodological-working-in-imaging-neuroscience" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="summer-term-2021">
+<h2>Summer Term 2021<a class="headerlink" href="#summer-term-2021" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="introduction-to-eeg-preprocessing">
+<h2>Introduction to EEG-preprocessing<a class="headerlink" href="#introduction-to-eeg-preprocessing" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/JoseAlanis">José C. García Alanis (he/him)</a>
+<br>
+Research Fellow - <a class="reference external" href="https://www.uni-marburg.de/en/fb04/department">Dep. of Psychology</a> at <a class="reference external" href="https://www.uni-marburg.de/en">Uni Marburg</a>.
+<br>
+Affiliated - <a class="reference external" href="https://www.uni-marburg.de/en/fb04/workgroups/pediatric-and-adolescent-psychology">Child and Adolescent Psychology</a>, <a class="reference external" href="https://www.uni-marburg.de/en/fb04/rtg-2271">RTG Breaking Expectations</a>.
+<br></p>
+<p>31/05/2021</p>
+<img align="left" src="https://raw.githubusercontent.com/G0RELLA/gorella_mwn/master/lecture/static/GitHub-Mark-120px-plus.png" alt="logo" title="Github" width="30" height="10" /> 
+<img align="right" src="http://learn.neurotechedu.com/images/filtered_unfiltered.png" alt="logo"  title="pdf_x" width="550" height="500" />
+<p>  &#64;JoseAlanis</p>
+</div>
+<div class="section" id="before-we-get-started">
+<h2>Before we get started<a class="headerlink" href="#before-we-get-started" title="Permalink to this headline">¶</a></h2>
+<p>This materials are inspired by the <a class="reference external" href="http://learn.neurotechedu.com/preprocessing/">NeurotechEDU tutorial</a> on EEG-preprocessing. Yu can always refer to that site for additional, perhaps more detailed, materials on the techniques shown here.</p>
+<p>We will be using the Python MNE library in this example:</p>
+</div>
+<div class="section" id="what-is-preprocessing">
+<h2>What Is Preprocessing?<a class="headerlink" href="#what-is-preprocessing" title="Permalink to this headline">¶</a></h2>
+<p>In general, preprocessing is the procedure of transforming <strong>raw data</strong> into a something that is more suitable for further analysis. After preprocessing, data should be <strong>easier to handle</strong> (e.g., less outliers, less “errors”).</p>
+<p>With regard to EEG data, preprocessing is usually performed to <strong>remove noise</strong> and <strong>get closer to</strong> the <strong>“true”</strong> neural <strong>signals</strong> entailed in the “messy” EEG.</p>
+<img align="left" src="https://mne.tools/dev/_images/sphx_glr_10_overview_005.png" alt="logo" title="Github" width="800" height="800" /> 
+<img align="right" src="https://mne.tools/dev/_images/sphx_glr_10_overview_006.png" alt="logo" title="Github" width="800" height="800" /> </div>
+<div class="section" id="why-do-we-need-preprocessing">
+<h2>Why do we need preprocessing?<a class="headerlink" href="#why-do-we-need-preprocessing" title="Permalink to this headline">¶</a></h2>
+<p>… several reasons …</p>
+<ul class="simple">
+<li><ol class="simple">
+<li><p>The signals that are picked up from the scalp are not necessarily an accurate representation of the signals originating from the brain (e.g., missing spatial information).</p></li>
+</ol>
+</li>
+<li><ol class="simple">
+<li><p>EEG data contains <strong>a lot of noise</strong> which can obscure weaker EEG signals (cf. true signal).</p></li>
+</ol>
+</li>
+<li><ol class="simple">
+<li><p>Artifacts such as <strong>eye blinks</strong> or <strong>muscle movement</strong> can contaminate the data and distort the picture.</p></li>
+</ol>
+</li>
+<li><ol class="simple">
+<li><p>We want to <strong>separate the relevant neural signals from random activity</strong> that occurs during EEG recordings (cf. true signal).</p></li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="typical-steps-in-eeg-preprocessing">
+<h2>Typical steps in EEG preprocessing<a class="headerlink" href="#typical-steps-in-eeg-preprocessing" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Using <a class="reference external" href="https://mne.tools/stable/overview/cookbook.html">MNE-python</a>:</p>
+<ul>
+<li><p><a class="reference external" href="https://mne.tools/dev/auto_tutorials/intro/10_overview.html">https://mne.tools/dev/auto_tutorials/intro/10_overview.html</a></p></li>
+</ul>
+</li>
+</ul>
+<center><img src="https://mne.tools/stable/_images/flow_diagram.svg" width="800" height="800"/></center></div>
+<div class="section" id="hands-on">
+<h2>Hands-on<a class="headerlink" href="#hands-on" title="Permalink to this headline">¶</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># import mne</span>
+
+<span class="kn">import</span> <span class="nn">mne</span>
+<span class="kn">import</span> <span class="nn">matplotlib</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="o">%</span><span class="k">matplotlib</span> notebook
+
+<span class="n">matplotlib</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;figure.figsize&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="first-load-one-of-the-mne-example-datasets">
+<h2>First, load one of the MNE example datasets:<a class="headerlink" href="#first-load-one-of-the-mne-example-datasets" title="Permalink to this headline">¶</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="n">mne</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">eegbci</span><span class="o">.</span><span class="n">load_data</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">path</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="now-lets-read-i-e-import-the-edf-file">
+<h2>Now lets read (i.e., import) the EDF file:<a class="headerlink" href="#now-lets-read-i-e-import-the-edf-file" title="Permalink to this headline">¶</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span> <span class="o">=</span> <span class="n">mne</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">read_raw_edf</span><span class="p">(</span><span class="n">path</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">preload</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span><span class="o">.</span><span class="n">info</span><span class="p">[</span><span class="s1">&#39;chs&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">mne.datasets</span> <span class="kn">import</span> <span class="n">eegbci</span>
+
+<span class="c1"># set channel names</span>
+<span class="n">eegbci</span><span class="o">.</span><span class="n">standardize</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+
+<span class="c1"># set montage</span>
+<span class="n">montage</span> <span class="o">=</span> <span class="n">mne</span><span class="o">.</span><span class="n">channels</span><span class="o">.</span><span class="n">make_standard_montage</span><span class="p">(</span><span class="s1">&#39;standard_1020&#39;</span><span class="p">)</span>
+<span class="n">raw</span><span class="o">.</span><span class="n">set_montage</span><span class="p">(</span><span class="n">montage</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span><span class="o">.</span><span class="n">plot_sensors</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;3d&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="now-that-the-raw-file-has-been-created-we-can-plot-the-data">
+<h2>Now that the <em>Raw file</em> has been created, we can plot the data:<a class="headerlink" href="#now-that-the-raw-file-has-been-created-we-can-plot-the-data" title="Permalink to this headline">¶</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">scalings</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">eeg</span><span class="o">=</span><span class="mf">200e-6</span><span class="p">));</span>  <span class="c1"># +/- 200 µV scale (1 V = 1000000 µV)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="note">
+<h2>Note:<a class="headerlink" href="#note" title="Permalink to this headline">¶</a></h2>
+<p>(just for demonstration purposes, you can skip this if you like, continue in 11.1)</p>
+<p>It is also possible to create a raw file from scratch, given the channel names, sample frequency, and an array of data</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ch_names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">]</span> <span class="c1"># channel names</span>
+<span class="n">sfreq</span> <span class="o">=</span> <span class="mi">200</span> <span class="c1"># sampling frequency, in hertz</span>
+<span class="n">info</span> <span class="o">=</span> <span class="n">mne</span><span class="o">.</span><span class="n">create_info</span><span class="p">(</span><span class="n">ch_names</span><span class="p">,</span> <span class="n">sfreq</span><span class="p">)</span> <span class="c1"># See docs for full list of Info options.</span>
+<span class="n">samples</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]])</span> <span class="c1"># Samples for each channel</span>
+<span class="n">loadedRaw</span> <span class="o">=</span> <span class="n">mne</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">RawArray</span><span class="p">(</span><span class="n">samples</span><span class="p">,</span> <span class="n">info</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">loadedRaw</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">scalings</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="look-at-characteristics-of-the-raw-file">
+<h2>Look at characteristics of the <em>Raw file</em><a class="headerlink" href="#look-at-characteristics-of-the-raw-file" title="Permalink to this headline">¶</a></h2>
+<p>E.g., look at the power spectral density plot of our data.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> notebook
+<span class="n">raw</span><span class="o">.</span><span class="n">plot_psd</span><span class="p">(</span><span class="n">tmin</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">tmax</span><span class="o">=</span><span class="mi">60</span><span class="p">,</span> <span class="n">fmin</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">fmax</span><span class="o">=</span><span class="mi">80</span><span class="p">,</span> <span class="n">average</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">spatial_colors</span><span class="o">=</span><span class="kc">False</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="filtering">
+<h2>Filtering<a class="headerlink" href="#filtering" title="Permalink to this headline">¶</a></h2>
+<p>Now that we have the raw data, we can filter the data to select the frequencies we’re interested in.</p>
+<ol class="simple">
+<li><p>We want to remove the 60 Hz power line noise. If we want to “remove 60Hz” but keep other frequncies, we can use a notch filter <a class="reference external" href="https://jasmainak.github.io/mne-workshop-brown/preprocessing/filtering.html">see here</a> for instance.</p></li>
+<li><p>Alternatively, if we want a  a filter that “lets pass” all the frequencies below 60 Hz but removes everithing else, we can use a “low-pass filter”. Here we can set an “upper cut-off” for the filter by setting <code class="docutils literal notranslate"><span class="pre">h_freq=50.0</span></code>. I use a conservative 50.0 Hz cut-off (and not 60.0 Hz) because filters have transition bandwidth, meaning that they will “affect” frequencies around the target frequency to a certain degree, but not remove them completely (i.e., the <code class="docutils literal notranslate"><span class="pre">passband</span> <span class="pre">edge</span></code> will be somewhat avobe the target frequency, see filter summary in the next slides).</p></li>
+<li><p>Conversely, we can use a “high-pass filter” to remove frequencies below a certain frequency. Combined, high and low pass filters constitue a “band-pass filter” (i.e., lets a certain band of frequecies pass.)</p></li>
+</ol>
+<p>You can <a class="reference external" href="https://mne.tools/stable/auto_tutorials/preprocessing/25_background_filtering.html?highlight=filter">see here</a> for more information on filters and implementation in MNE-Python.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># set notch filter</span>
+<span class="n">raw</span><span class="o">.</span><span class="n">notch_filter</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Now we can remove very high and very low frequencies that are unlikely to contain the signal that is relevant to us.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">l_freq</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">h_freq</span><span class="o">=</span><span class="mf">50.0</span><span class="p">)</span> <span class="c1"># only keeping frequencies between 1-50 Hz</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Notice how filtering changes the shape of the power spectral density plot:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span><span class="o">.</span><span class="n">info</span><span class="p">[</span><span class="s1">&#39;sfreq&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>We can now downsample the data:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Downsample a lot</span>
+<span class="n">raw</span><span class="o">.</span><span class="n">resample</span><span class="p">(</span><span class="mi">120</span><span class="p">,</span> <span class="n">npad</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">)</span>
+<span class="n">raw</span><span class="o">.</span><span class="n">plot_psd</span><span class="p">(</span><span class="n">tmin</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">tmax</span><span class="o">=</span><span class="mi">60</span><span class="p">,</span> <span class="n">fmin</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">fmax</span><span class="o">=</span><span class="mi">60</span><span class="p">,</span> <span class="n">average</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">spatial_colors</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">xscale</span><span class="o">=</span><span class="s1">&#39;log&#39;</span><span class="p">);</span>
+<span class="c1"># Notice that the max plotted frequency is 60, the nyquist rate!</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>After filtering and downsampling, we can look at the raw data again to see if there are any bad channels:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">scalings</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">eeg</span><span class="o">=</span><span class="mf">200e-6</span><span class="p">));</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>You may notice from the plot above that the channel C4 looks significantly noisier than the others. We can then flag it as a ‘bad’ channel and remove it:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span><span class="o">.</span><span class="n">info</span><span class="p">[</span><span class="s1">&#39;bads&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;C4&#39;</span><span class="p">]</span>
+<span class="n">picks</span> <span class="o">=</span> <span class="n">mne</span><span class="o">.</span><span class="n">pick_types</span><span class="p">(</span><span class="n">raw</span><span class="o">.</span><span class="n">info</span><span class="p">,</span> <span class="n">exclude</span><span class="o">=</span><span class="s1">&#39;bads&#39;</span><span class="p">)</span>
+<span class="n">raw</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">scalings</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">eeg</span><span class="o">=</span><span class="mf">200e-6</span><span class="p">),</span> <span class="n">bad_color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Now that we have marked a channel as bad, we can interpolate the data coming from that channel via spherical spline interpolation.</p>
+<p>In order to be able to do that, we need to make sure that our channels have location information:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">raw</span><span class="o">.</span><span class="n">info</span><span class="p">[</span><span class="s1">&#39;chs&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>You can see that all the locations (the ‘loc’ attributes) are at 0, meaning that we don’t have accurate location info. However, assuming that the data was recorded from a headset using the standard 10-20 system, we can load a pre-configured channel location file and use that instead.</p>
+<p>Now we can interpolate the bad channel and see what the reconstructed channel looks like.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span><span class="o">.</span><span class="n">interpolate_bads</span><span class="p">(</span><span class="n">reset_bads</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">raw</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">scalings</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">eeg</span><span class="o">=</span><span class="mf">200e-6</span><span class="p">));</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Now that we have somewhat cleaned-up data, we can run ICA to try and localize the signal:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">mne.preprocessing</span> <span class="kn">import</span> <span class="n">ICA</span>
+<span class="c1"># play around with this number to get components </span>
+<span class="c1"># that seem to represent the actual brain activations well</span>
+<span class="n">num_components</span> <span class="o">=</span> <span class="mi">15</span> 
+<span class="n">ica</span> <span class="o">=</span> <span class="n">ICA</span><span class="p">(</span><span class="n">n_components</span><span class="o">=</span><span class="n">num_components</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s1">&#39;fastica&#39;</span><span class="p">)</span>
+<span class="n">ica</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Once the components have been computed, we can plot them on a model of the scalp:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ica</span><span class="o">.</span><span class="n">plot_components</span><span class="p">();</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>We can now reject components that appear artifactual. To do so, we can visualize each component’s properties first:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">n_channels</span><span class="o">=</span><span class="mi">32</span><span class="p">,</span> <span class="n">scalings</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">eeg</span><span class="o">=</span><span class="mf">100e-6</span><span class="p">));</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>This might seem like a lot of information. One commonly used heuristic is looking at the spectum of each component. Ideally, each spectrum will have a <span class="math notranslate nohighlight">\(\dfrac 1 x\)</span> - like shape:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ica</span><span class="o">.</span><span class="n">plot_properties</span><span class="p">(</span><span class="n">raw</span><span class="p">,</span> <span class="n">picks</span><span class="o">=</span><span class="mi">0</span><span class="p">);</span> <span class="c1"># This exact component number probably won&#39;t work if you recompute ICA</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>…while outlier components will have increasing intensity for higher frequencies, like in this example:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ica</span><span class="o">.</span><span class="n">plot_properties</span><span class="p">(</span><span class="n">raw</span><span class="p">,</span> <span class="n">picks</span><span class="o">=</span><span class="mi">9</span><span class="p">);</span> <span class="c1"># This exact component number probably won&#39;t work if you recompute ICA</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>We can now see what our data looks like with the bad component removed:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ica</span><span class="o">.</span><span class="n">plot_overlay</span><span class="p">(</span><span class="n">raw</span><span class="p">,</span> <span class="n">exclude</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ica</span><span class="o">.</span><span class="n">exclude</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">ica</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">scalings</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">eeg</span><span class="o">=</span><span class="mf">200e-6</span><span class="p">));</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Peer Herholz, José C. García Alanis, Christoph Vogelbacher<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
