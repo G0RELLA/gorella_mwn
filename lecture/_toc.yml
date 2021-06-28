@@ -17,7 +17,9 @@ chapters:
     - file: data_processing_readin_csv
     - file: preprocessing_eeg
 - file: results_communication
+  sections:
     - file: python_visualization_for_data
+    - file: python_visualization
 - file: symposium
 - file: projects
 - file: questionnaires
