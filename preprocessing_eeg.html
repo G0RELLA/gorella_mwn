@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Methodological working in imaging neuroscience</title>
+    <title>Introduction to EEG-preprocessing</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -165,7 +165,7 @@
    </li>
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     Methodological working in imaging neuroscience
+     Introduction to EEG-preprocessing
     </a>
    </li>
   </ul>
@@ -302,71 +302,78 @@
             <nav id="bd-toc-nav">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#summer-term-2021">
-   Summer Term 2021
+  <a class="reference internal nav-link" href="#methodological-working-in-imaging-neuroscience">
+   Methodological working in imaging neuroscience
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#before-we-get-started">
-   Before we get started
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-is-preprocessing">
-   What Is Preprocessing?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#why-do-we-need-preprocessing">
-   Why do we need preprocessing?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#typical-steps-in-eeg-preprocessing">
-   Typical steps in EEG preprocessing
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#hands-on">
-   Hands-on
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#first-load-one-of-the-mne-example-datasets">
-   First, load one of the MNE example datasets:
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#now-lets-read-i-e-import-the-edf-file">
-   Now lets read (i.e., import) the EDF file:
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#now-that-the-raw-file-has-been-created-we-can-plot-the-data">
-   Now that the
-   <em>
-    Raw file
-   </em>
-   has been created, we can plot the data:
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#note">
-   Note:
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#look-at-characteristics-of-the-raw-file">
-   Look at characteristics of the
-   <em>
-    Raw file
-   </em>
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#filtering">
-   Filtering
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#summer-term-2021">
+     Summer Term 2021
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#before-we-get-started">
+     Before we get started
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-is-preprocessing">
+     What Is Preprocessing?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#why-do-we-need-preprocessing">
+     Why do we need preprocessing?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#typical-steps-in-eeg-preprocessing">
+     Typical steps in EEG preprocessing
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#hands-on">
+     Hands-on
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#first-load-one-of-the-mne-example-datasets">
+     First, load one of the MNE example datasets:
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#now-lets-read-i-e-import-the-edf-file">
+     Now lets read (i.e., import) the EDF file:
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#now-that-the-raw-file-has-been-created-we-can-plot-the-data">
+     Now that the
+     <em>
+      Raw file
+     </em>
+     has been created, we can plot the data:
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#note">
+     Note:
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#look-at-characteristics-of-the-raw-file">
+     Look at characteristics of the
+     <em>
+      Raw file
+     </em>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#filtering">
+     Filtering
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -379,11 +386,12 @@
         
               <div>
                 
-  <p>#Introduction to EEG-preprocessing</p>
+  <div class="section" id="introduction-to-eeg-preprocessing">
+<h1>Introduction to EEG-preprocessing<a class="headerlink" href="#introduction-to-eeg-preprocessing" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="methodological-working-in-imaging-neuroscience">
-<h1>Methodological working in imaging neuroscience<a class="headerlink" href="#methodological-working-in-imaging-neuroscience" title="Permalink to this headline">¶</a></h1>
+<h2>Methodological working in imaging neuroscience<a class="headerlink" href="#methodological-working-in-imaging-neuroscience" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="summer-term-2021">
-<h2>Summer Term 2021<a class="headerlink" href="#summer-term-2021" title="Permalink to this headline">¶</a></h2>
+<h3>Summer Term 2021<a class="headerlink" href="#summer-term-2021" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference external" href="https://github.com/JoseAlanis">José C. García Alanis (he/him)</a>
 <br>
 Research Fellow - <a class="reference external" href="https://www.uni-marburg.de/en/fb04/department">Dep. of Psychology</a> at <a class="reference external" href="https://www.uni-marburg.de/en">Uni Marburg</a>.
@@ -396,18 +404,18 @@ Affiliated - <a class="reference external" href="https://www.uni-marburg.de/en/f
 <p>  &#64;JoseAlanis</p>
 </div>
 <div class="section" id="before-we-get-started">
-<h2>Before we get started<a class="headerlink" href="#before-we-get-started" title="Permalink to this headline">¶</a></h2>
+<h3>Before we get started<a class="headerlink" href="#before-we-get-started" title="Permalink to this headline">¶</a></h3>
 <p>This materials are inspired by the <a class="reference external" href="http://learn.neurotechedu.com/preprocessing/">NeurotechEDU tutorial</a> on EEG-preprocessing. Yu can always refer to that site for additional, perhaps more detailed, materials on the techniques shown here.</p>
 <p>We will be using the Python MNE library in this example:</p>
 </div>
 <div class="section" id="what-is-preprocessing">
-<h2>What Is Preprocessing?<a class="headerlink" href="#what-is-preprocessing" title="Permalink to this headline">¶</a></h2>
+<h3>What Is Preprocessing?<a class="headerlink" href="#what-is-preprocessing" title="Permalink to this headline">¶</a></h3>
 <p>In general, preprocessing is the procedure of transforming <strong>raw data</strong> into a something that is more suitable for further analysis. After preprocessing, data should be <strong>easier to handle</strong> (e.g., less outliers, less “errors”).</p>
 <p>With regard to EEG data, preprocessing is usually performed to <strong>remove noise</strong> and <strong>get closer to</strong> the <strong>“true”</strong> neural <strong>signals</strong> entailed in the “messy” EEG.</p>
 <img align="left" src="https://mne.tools/dev/_images/sphx_glr_10_overview_005.png" alt="logo" title="Github" width="800" height="800" /> 
 <img align="right" src="https://mne.tools/dev/_images/sphx_glr_10_overview_006.png" alt="logo" title="Github" width="800" height="800" /> </div>
 <div class="section" id="why-do-we-need-preprocessing">
-<h2>Why do we need preprocessing?<a class="headerlink" href="#why-do-we-need-preprocessing" title="Permalink to this headline">¶</a></h2>
+<h3>Why do we need preprocessing?<a class="headerlink" href="#why-do-we-need-preprocessing" title="Permalink to this headline">¶</a></h3>
 <p>… several reasons …</p>
 <ul class="simple">
 <li><ol class="simple">
@@ -429,7 +437,7 @@ Affiliated - <a class="reference external" href="https://www.uni-marburg.de/en/f
 </ul>
 </div>
 <div class="section" id="typical-steps-in-eeg-preprocessing">
-<h2>Typical steps in EEG preprocessing<a class="headerlink" href="#typical-steps-in-eeg-preprocessing" title="Permalink to this headline">¶</a></h2>
+<h3>Typical steps in EEG preprocessing<a class="headerlink" href="#typical-steps-in-eeg-preprocessing" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>Using <a class="reference external" href="https://mne.tools/stable/overview/cookbook.html">MNE-python</a>:</p>
 <ul>
@@ -439,7 +447,7 @@ Affiliated - <a class="reference external" href="https://www.uni-marburg.de/en/f
 </ul>
 <center><img src="https://mne.tools/stable/_images/flow_diagram.svg" width="800" height="800"/></center></div>
 <div class="section" id="hands-on">
-<h2>Hands-on<a class="headerlink" href="#hands-on" title="Permalink to this headline">¶</a></h2>
+<h3>Hands-on<a class="headerlink" href="#hands-on" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># import mne</span>
@@ -456,7 +464,7 @@ Affiliated - <a class="reference external" href="https://www.uni-marburg.de/en/f
 </div>
 </div>
 <div class="section" id="first-load-one-of-the-mne-example-datasets">
-<h2>First, load one of the MNE example datasets:<a class="headerlink" href="#first-load-one-of-the-mne-example-datasets" title="Permalink to this headline">¶</a></h2>
+<h3>First, load one of the MNE example datasets:<a class="headerlink" href="#first-load-one-of-the-mne-example-datasets" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="n">mne</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">eegbci</span><span class="o">.</span><span class="n">load_data</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
@@ -467,7 +475,7 @@ Affiliated - <a class="reference external" href="https://www.uni-marburg.de/en/f
 </div>
 </div>
 <div class="section" id="now-lets-read-i-e-import-the-edf-file">
-<h2>Now lets read (i.e., import) the EDF file:<a class="headerlink" href="#now-lets-read-i-e-import-the-edf-file" title="Permalink to this headline">¶</a></h2>
+<h3>Now lets read (i.e., import) the EDF file:<a class="headerlink" href="#now-lets-read-i-e-import-the-edf-file" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span> <span class="o">=</span> <span class="n">mne</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">read_raw_edf</span><span class="p">(</span><span class="n">path</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">preload</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -505,7 +513,7 @@ Affiliated - <a class="reference external" href="https://www.uni-marburg.de/en/f
 </div>
 </div>
 <div class="section" id="now-that-the-raw-file-has-been-created-we-can-plot-the-data">
-<h2>Now that the <em>Raw file</em> has been created, we can plot the data:<a class="headerlink" href="#now-that-the-raw-file-has-been-created-we-can-plot-the-data" title="Permalink to this headline">¶</a></h2>
+<h3>Now that the <em>Raw file</em> has been created, we can plot the data:<a class="headerlink" href="#now-that-the-raw-file-has-been-created-we-can-plot-the-data" title="Permalink to this headline">¶</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">scalings</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">eeg</span><span class="o">=</span><span class="mf">200e-6</span><span class="p">));</span>  <span class="c1"># +/- 200 µV scale (1 V = 1000000 µV)</span>
@@ -515,7 +523,7 @@ Affiliated - <a class="reference external" href="https://www.uni-marburg.de/en/f
 </div>
 </div>
 <div class="section" id="note">
-<h2>Note:<a class="headerlink" href="#note" title="Permalink to this headline">¶</a></h2>
+<h3>Note:<a class="headerlink" href="#note" title="Permalink to this headline">¶</a></h3>
 <p>(just for demonstration purposes, you can skip this if you like, continue in 11.1)</p>
 <p>It is also possible to create a raw file from scratch, given the channel names, sample frequency, and an array of data</p>
 <div class="cell docutils container">
@@ -538,7 +546,7 @@ Affiliated - <a class="reference external" href="https://www.uni-marburg.de/en/f
 </div>
 </div>
 <div class="section" id="look-at-characteristics-of-the-raw-file">
-<h2>Look at characteristics of the <em>Raw file</em><a class="headerlink" href="#look-at-characteristics-of-the-raw-file" title="Permalink to this headline">¶</a></h2>
+<h3>Look at characteristics of the <em>Raw file</em><a class="headerlink" href="#look-at-characteristics-of-the-raw-file" title="Permalink to this headline">¶</a></h3>
 <p>E.g., look at the power spectral density plot of our data.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -550,7 +558,7 @@ Affiliated - <a class="reference external" href="https://www.uni-marburg.de/en/f
 </div>
 </div>
 <div class="section" id="filtering">
-<h2>Filtering<a class="headerlink" href="#filtering" title="Permalink to this headline">¶</a></h2>
+<h3>Filtering<a class="headerlink" href="#filtering" title="Permalink to this headline">¶</a></h3>
 <p>Now that we have the raw data, we can filter the data to select the frequencies we’re interested in.</p>
 <ol class="simple">
 <li><p>We want to remove the 60 Hz power line noise. If we want to “remove 60Hz” but keep other frequncies, we can use a notch filter <a class="reference external" href="https://jasmainak.github.io/mne-workshop-brown/preprocessing/filtering.html">see here</a> for instance.</p></li>
@@ -695,6 +703,7 @@ Affiliated - <a class="reference external" href="https://www.uni-marburg.de/en/f
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">raw</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">scalings</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">eeg</span><span class="o">=</span><span class="mf">200e-6</span><span class="p">));</span>
 </pre></div>
+</div>
 </div>
 </div>
 </div>
