@@ -2,23 +2,36 @@
 
 ## Lecture/Practice 9 - Visualization of results
 
-### Lecture slides and feedback
+<iframe src="https://mfr.de-1.osf.io/render?url=https://osf.io/x6dcr/?direct%26mode=render%26action=download%26mode=render" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
 
-### Practice materials and feedback
+_Please find the jupyter notebooks in the ToC on the left._
+
+
+
+### Feedback
+
+
 
 ## Lecture/Practice 10 - Poster and talk design
+<iframe src="https://mfr.de-1.osf.io/render?url=https://osf.io/8y6tk/?direct%26mode=render%26action=download%26mode=render" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
 
-### Lecture slides and feedback
+<iframe src="https://mfr.de-1.osf.io/render?url=https://osf.io/yfsrx/?direct%26mode=render%26action=download%26mode=render" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
 
-### Practice materials and feedback
+Link to [postertemplate](https://mfr.de-1.osf.io/render?url=https://osf.io/p6e3n/?direct%26mode=render%26action=download%26mode=render)
+
+### Feedback
+
+
 
 ## Lecture/Practice 11 - Writing a scientific paper
+<iframe src="https://mfr.de-1.osf.io/render?url=https://osf.io/ed9zu/?direct%26mode=render%26action=download%26mode=render" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay"></iframe>
 
-### Lecture slides and feedback
+### Feedback
 
-### Practice materials and feedback
+
 
 ## Lecture/Practice 12 - Preprint, publication models & open constructive review
+
 
 ## Outcomes
 
