@@ -23,7 +23,7 @@
 
     
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.e8f53015daec13862f6db5e763c41738.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -43,7 +43,7 @@
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
@@ -79,7 +79,7 @@
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
@@ -297,7 +297,7 @@
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contents
             </div>
-            <nav id="bd-toc-nav">
+            <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#course-overview">
@@ -416,8 +416,8 @@ You <em>must</em> have Python installed via Miniconda for this course.</p></li>
 <h3>OS-specific installation instructions<a class="headerlink" href="#os-specific-installation-instructions" title="Permalink to this headline">¶</a></h3>
 <p>Select the tab that corresponds to your operating system and follow the instructions therein.</p>
 <div class="tabbed-set docutils">
-<input checked="checked" id="dd018f90-08b0-4222-8d44-bb6c6099c80d" name="37b1543f-da2b-44be-8de3-221dd0046932" type="radio">
-</input><label class="tabbed-label" for="dd018f90-08b0-4222-8d44-bb6c6099c80d">
+<input checked="checked" id="322ce712-5edf-4d70-a2fd-487d70756e44" name="0a2dd680-7f84-4cb2-85c5-d98b64d41308" type="radio">
+</input><label class="tabbed-label" for="322ce712-5edf-4d70-a2fd-487d70756e44">
 Windows</label><div class="tabbed-content docutils">
 <p><strong>Windows Subsystem for Linux (WSL)</strong></p>
 <ol>
@@ -594,8 +594,8 @@ If you are having problems running <code class="docutils literal notranslate"><s
 <p>(The above step-by-step instructions are distilled from <a class="reference external" href="https://docs.docker.com/toolbox/toolbox_install_windows/">here</a> and <a class="reference external" href="https://medium.com/&#64;joaoh82/setting-up-docker-toolbox-for-windows-home-10-and-wsl-to-work-perfectly-2fd34ed41d51">here</a>.
 If you have questions during the installation procedure please check those links for potential answers!)</p>
 </div>
-<input id="3ae94d49-ebca-461a-84c1-fd1b69fd6e7f" name="37b1543f-da2b-44be-8de3-221dd0046932" type="radio">
-</input><label class="tabbed-label" for="3ae94d49-ebca-461a-84c1-fd1b69fd6e7f">
+<input id="09694910-27e6-49cc-8816-19dbb68606e8" name="0a2dd680-7f84-4cb2-85c5-d98b64d41308" type="radio">
+</input><label class="tabbed-label" for="09694910-27e6-49cc-8816-19dbb68606e8">
 Linux</label><div class="tabbed-content docutils">
 <p><strong>Bash shell</strong></p>
 <p>You already have it!
@@ -675,8 +675,8 @@ You only need to do the “Manage Docker as a non-root user” and “Configure 
 A brief introductory message should be printed to the screen.</p></li>
 </ol>
 </div>
-<input id="7473f616-63ce-42c0-9375-208c659a6864" name="37b1543f-da2b-44be-8de3-221dd0046932" type="radio">
-</input><label class="tabbed-label" for="7473f616-63ce-42c0-9375-208c659a6864">
+<input id="6a6e6b7b-196e-4cbb-b525-00db0c815c21" name="0a2dd680-7f84-4cb2-85c5-d98b64d41308" type="radio">
+</input><label class="tabbed-label" for="6a6e6b7b-196e-4cbb-b525-00db0c815c21">
 MacOs</label><div class="tabbed-content docutils">
 <p><strong>Bash shell</strong></p>
 <p>You already have it!
@@ -826,12 +826,32 @@ Type the following into your terminal:</p>
               </div>
               
         
-        <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="index.html" title="previous page">Welcome!</a>
-    <a class='right-next' id="next-link" href="procedure.html" title="next page">General procedure</a>
 
-        </div>
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="index.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Welcome!</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="procedure.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">General procedure</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
         
         </div>
     </div>
